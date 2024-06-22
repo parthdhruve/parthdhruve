@@ -1,0 +1,16 @@
+p {
+  font-size: 1.5em;
+}
+
+footer p {
+  font-size: 1em;
+  color: grey;
+}
+
+#framed-self-portrait {
+  border-image-source: url(../assets/images/gold_frame.jpg);
+  border-image-slice: 520;
+  border-image-width: 100px;
+  border-image-outset: 100px;
+  border-image-repeat: stretch;
+}
