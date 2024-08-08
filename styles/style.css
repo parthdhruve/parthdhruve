@@ -3,10 +3,28 @@
 }
 
 p {
-  font-size: 1.5em;
+  font-size: 1em;
+}
+
+.center {
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: max-content 300px;
+  column-gap: 10px;
+}
+
+.main-grid-left {
+  grid-column: 1;
+}
+
+.main-grid-right {
+  grid-column: 2;
 }
 
 footer p {
-  font-size: 1em;
+  font-size: 0.5em;
   color: grey;
 }
+
