@@ -3,16 +3,30 @@
 }
 
 p {
-  font-size: 1em;
+  font-size: 1rem;
 }
 
 .center {
 }
 
+body {
+  width: 600px;
+}
+
 .main-grid {
   display: grid;
-  grid-template-columns: max-content 300px;
-  column-gap: 10px;
+  grid-template-columns: max-content 600px;
+  column-gap: 30px;
+}
+
+.main-menu-list {
+  list-style-type: none;
+  list-style-position: inside;
+  font-size: 1.1rem;
+  margin: 0;
+  padding: 0;
+  text-align: right;
+
 }
 
 .main-grid-left {
@@ -23,8 +37,22 @@ p {
   grid-column: 2;
 }
 
+.footer-div {
+  text-align: center;
+}
+
 footer p {
   font-size: 0.5em;
   color: grey;
 }
 
+/*
+Should have one style for sufficiently wide devices that has the nav bar on the 
+left and a defined width (max(px, % page size)) for the page, with everything
+enclosed distributed by the same formula.
+*/
+
+/*
+Devices that are too small should...
+*/
+/**/
